@@ -1,0 +1,1 @@
+sudo wget https://go.microsoft.com/fwlink/\?LinkID\=760868 -O vscode.deb && sudo apt -y install ${PWD}/vscode.deb && rm vscode.deb

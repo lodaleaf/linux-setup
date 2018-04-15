@@ -19,13 +19,13 @@ sudo add-apt-repository \
 
 sudo apt-get update
 
-sudo apt-get install docker-ce
+sudo apt-get install -y docker-ce
 
 apt-cache madison docker-ce
 
 docker-ce | 17.12.0~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
 
-sudo apt-get install docker-ce -y
+sudo apt-get install -y docker-ce -y
 
 sudo groupadd docker
 sudo gpasswd -a $USER docker
